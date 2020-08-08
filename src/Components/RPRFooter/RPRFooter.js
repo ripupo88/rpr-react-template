@@ -14,8 +14,8 @@ export const RPRFooter = () => {
                         </p>
                     </MDBCol>
                     <MDBCol className="pl-5" md="4">
-                        <h5 className="title">Servicios</h5>
                         <ul>
+                            <h5 className="title">Servicios</h5>
                             <li className="list-unstyled">
                                 <a href="#!">Garantia</a>
                             </li>
@@ -28,8 +28,8 @@ export const RPRFooter = () => {
                         </ul>
                     </MDBCol>
                     <MDBCol className="pl-5" md="4">
-                        <h5 className="title">Nosotros</h5>
                         <ul>
+                            <h5 className="title">Nosotros</h5>
                             <li className="list-unstyled">
                                 <a href="#!">¿Quienes somo?</a>
                             </li>

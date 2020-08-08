@@ -40,7 +40,7 @@ const RPRNavbar1 = React.memo(({ props }) => {
                 </MDBNavbarBrand>
                 <MDBNavbarToggler onClick={toggleCollapse} />
                 <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
-                    <MDBNavbarNav black-text left>
+                    <MDBNavbarNav right>
                         <MDBNavItem active>
                             <MDBNavLink to="#!">Home</MDBNavLink>
                         </MDBNavItem>
@@ -50,7 +50,7 @@ const RPRNavbar1 = React.memo(({ props }) => {
                         <MDBNavItem>
                             <MDBNavLink to="#!">Pricing</MDBNavLink>
                         </MDBNavItem>
-                        <MDBNavItem>
+                        {/* <MDBNavItem>
                             <MDBDropdown>
                                 <MDBDropdownToggle nav caret>
                                     <span className="mr-2">Dropdown</span>
@@ -70,9 +70,7 @@ const RPRNavbar1 = React.memo(({ props }) => {
                                     </MDBDropdownItem>
                                 </MDBDropdownMenu>
                             </MDBDropdown>
-                        </MDBNavItem>
-                    </MDBNavbarNav>
-                    <MDBNavbarNav right>
+                        </MDBNavItem> */}
                         <MDBNavItem>
                             <MDBFormInline waves>
                                 <div className="md-form my-0">
